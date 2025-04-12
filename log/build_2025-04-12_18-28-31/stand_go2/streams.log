@@ -1,0 +1,75 @@
+[0.118s] Invoking command in '/home/endika/unitree_mujoco_ros/build/stand_go2': CMAKE_PREFIX_PATH=/home/endika/unitree_mujoco_ros/install/unitree_go:/home/endika/unitree_mujoco_ros/install/unitree_api:/home/endika/unitree_mujoco_ros/install/unitree_hg:/home/endika/unitree_mujoco_ros/install/stand_go2 LD_LIBRARY_PATH=/home/endika/unitree_mujoco_ros/install/unitree_go/lib:/home/endika/unitree_mujoco_ros/install/unitree_api/lib:/home/endika/unitree_mujoco_ros/install/unitree_hg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/unitree_robotics/lib:/home/endika//mujoco-3.2.7/build/bin:/usr/lib/nvidia /usr/bin/cmake /home/endika/unitree_mujoco_ros/src/stand_go2 -DCMAKE_INSTALL_PREFIX=/home/endika/unitree_mujoco_ros/install/stand_go2
+[0.767s] -- The C compiler identification is GNU 11.4.0
+[1.245s] -- The CXX compiler identification is GNU 11.4.0
+[1.295s] -- Detecting C compiler ABI info
+[2.002s] -- Detecting C compiler ABI info - done
+[2.052s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.054s] -- Detecting C compile features
+[2.055s] -- Detecting C compile features - done
+[2.071s] -- Detecting CXX compiler ABI info
+[2.750s] -- Detecting CXX compiler ABI info - done
+[2.798s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.798s] -- Detecting CXX compile features
+[2.798s] -- Detecting CXX compile features - done
+[2.817s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.969s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.648s] -- Found unitree_go: 0.0.0 (/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/cmake)
+[4.895s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.934s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.976s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.055s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.458s] -- Found unitree_api: 0.0.0 (/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/cmake)
+[5.535s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[5.745s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.767s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.884s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.944s] -- Looking for pthread.h
+[6.491s] -- Looking for pthread.h - found
+[6.494s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.199s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.208s] -- Found Threads: TRUE  
+[7.550s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[7.844s] -- Found rosbag2_cpp: 0.15.14 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[8.058s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.517s] Error parsing '/home/endika/unitree_mujoco_ros/src/stand_go2/package.xml':
+[10.039s] Traceback (most recent call last):
+[10.040s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[10.040s]     root = dom.parseString(data)
+[10.040s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[10.041s]     return expatbuilder.parseString(string)
+[10.062s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[10.063s]     return builder.parseString(string)
+[10.063s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[10.064s]     parser.Parse(string, True)
+[10.064s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 1, column 0
+[10.081s] 
+[10.081s] During handling of the above exception, another exception occurred:
+[10.082s] 
+[10.082s] Traceback (most recent call last):
+[10.082s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[10.083s]     main()
+[10.083s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[10.098s]     raise e
+[10.098s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[10.099s]     package = parse_package_string(
+[10.099s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[10.100s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[10.115s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/endika/unitree_mujoco_ros/src/stand_go2/package.xml':
+[10.116s] The manifest contains invalid XML:
+[10.117s] not well-formed (invalid token): line 1, column 0
+[10.260s] -- Configuring incomplete, errors occurred!
+[10.263s] See also "/home/endika/unitree_mujoco_ros/build/stand_go2/CMakeFiles/CMakeOutput.log".
+[10.264s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[10.269s]   execute_process(/usr/bin/python3
+[10.270s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[10.276s]   /home/endika/unitree_mujoco_ros/src/stand_go2/package.xml
+[10.281s]   /home/endika/unitree_mujoco_ros/build/stand_go2/ament_cmake_core/package.cmake)
+[10.283s]   returned error code 1
+[10.283s] Call Stack (most recent call first):
+[10.285s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[10.287s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[10.288s]   CMakeLists.txt:42 (rosidl_generate_interfaces)
+[10.289s] 
+[10.289s] [0m
+[10.392s] Invoked command in '/home/endika/unitree_mujoco_ros/build/stand_go2' returned '1': CMAKE_PREFIX_PATH=/home/endika/unitree_mujoco_ros/install/unitree_go:/home/endika/unitree_mujoco_ros/install/unitree_api:/home/endika/unitree_mujoco_ros/install/unitree_hg:/home/endika/unitree_mujoco_ros/install/stand_go2 LD_LIBRARY_PATH=/home/endika/unitree_mujoco_ros/install/unitree_go/lib:/home/endika/unitree_mujoco_ros/install/unitree_api/lib:/home/endika/unitree_mujoco_ros/install/unitree_hg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/unitree_robotics/lib:/home/endika//mujoco-3.2.7/build/bin:/usr/lib/nvidia /usr/bin/cmake /home/endika/unitree_mujoco_ros/src/stand_go2 -DCMAKE_INSTALL_PREFIX=/home/endika/unitree_mujoco_ros/install/stand_go2

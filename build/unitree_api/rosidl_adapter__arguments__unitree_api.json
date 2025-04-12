@@ -1,0 +1,13 @@
+{
+  "package_name": "unitree_api",
+  "non_idl_tuples": [
+    "/home/endika/unitree_mujoco_ros/src/unitree_api:msg/Request.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_api:msg/RequestHeader.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_api:msg/RequestIdentity.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_api:msg/RequestLease.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_api:msg/RequestPolicy.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_api:msg/Response.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_api:msg/ResponseHeader.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_api:msg/ResponseStatus.msg"
+  ]
+}

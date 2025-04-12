@@ -1,0 +1,369 @@
+[0.679s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.681s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71e8eb7fee30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71e8eb8ebc10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71e8eb8ebc10>>, mixin_verb=('build',))
+[2.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.101s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/endika/unitree_mujoco_ros'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extensions ['ignore', 'ignore_ament_install']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extension 'ignore'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extension 'ignore_ament_install'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extensions ['colcon_pkg']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extension 'colcon_pkg'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extensions ['colcon_meta']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extension 'colcon_meta'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extensions ['ros']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extension 'ros'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extensions ['cmake', 'python']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extension 'cmake'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extension 'python'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extensions ['python_setup_py']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(go2) by extension 'python_setup_py'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extensions ['ignore', 'ignore_ament_install']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extension 'ignore'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extension 'ignore_ament_install'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extensions ['colcon_pkg']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extension 'colcon_pkg'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extensions ['colcon_meta']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extension 'colcon_meta'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extensions ['ros']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extension 'ros'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extensions ['cmake', 'python']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extension 'cmake'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extension 'python'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extensions ['python_setup_py']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(go2/assets) by extension 'python_setup_py'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(simulate) by extensions ['ignore', 'ignore_ament_install']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(simulate) by extension 'ignore'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(simulate) ignored
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/stand_go2) by extensions ['ignore', 'ignore_ament_install']
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/stand_go2) by extension 'ignore'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/stand_go2) by extension 'ignore_ament_install'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/stand_go2) by extensions ['colcon_pkg']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/stand_go2) by extension 'colcon_pkg'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/stand_go2) by extensions ['colcon_meta']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/stand_go2) by extension 'colcon_meta'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/stand_go2) by extensions ['ros']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/stand_go2) by extension 'ros'
+[2.191s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/stand_go2': Error(s) in package 'src/stand_go2/package.xml':
+The manifest contains invalid XML:
+not well-formed (invalid token): line 1, column 0
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/stand_go2) by extensions ['cmake', 'python']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/stand_go2) by extension 'cmake'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/stand_go2) by extension 'python'
+[2.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stand_go2' with type 'cmake' and name 'stand_go2'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_api) by extensions ['ignore', 'ignore_ament_install']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_api) by extension 'ignore'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_api) by extension 'ignore_ament_install'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_api) by extensions ['colcon_pkg']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_api) by extension 'colcon_pkg'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_api) by extensions ['colcon_meta']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_api) by extension 'colcon_meta'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_api) by extensions ['ros']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_api) by extension 'ros'
+[2.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_api' with type 'ros.ament_cmake' and name 'unitree_api'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_go) by extensions ['ignore', 'ignore_ament_install']
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_go) by extension 'ignore'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_go) by extension 'ignore_ament_install'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_go) by extensions ['colcon_pkg']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_go) by extension 'colcon_pkg'
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_go) by extensions ['colcon_meta']
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_go) by extension 'colcon_meta'
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_go) by extensions ['ros']
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_go) by extension 'ros'
+[2.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_go' with type 'ros.ament_cmake' and name 'unitree_go'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_hg) by extensions ['ignore', 'ignore_ament_install']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_hg) by extension 'ignore'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_hg) by extension 'ignore_ament_install'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_hg) by extensions ['colcon_pkg']
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_hg) by extension 'colcon_pkg'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_hg) by extensions ['colcon_meta']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_hg) by extension 'colcon_meta'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_hg) by extensions ['ros']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_hg) by extension 'ros'
+[2.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_hg' with type 'ros.ament_cmake' and name 'unitree_hg'
+[2.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.428s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/endika/unitree_mujoco_ros/install/unitree_hg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.428s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/endika/unitree_mujoco_ros/install/stand_go2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.429s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/endika/unitree_mujoco_ros/install/unitree_go' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.429s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/endika/unitree_mujoco_ros/install/unitree_api' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.430s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/endika/unitree_mujoco_ros/install/unitree_hg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.431s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/endika/unitree_mujoco_ros/install/stand_go2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.431s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/endika/unitree_mujoco_ros/install/unitree_go' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.432s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/endika/unitree_mujoco_ros/install/unitree_api' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.436s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/endika/unitree_mujoco_ros/install
+[2.443s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/humble
+[2.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.709s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_args' from command line to 'None'
+[2.709s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_target' from command line to 'None'
+[2.709s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.710s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_clean_cache' from command line to 'False'
+[2.710s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_clean_first' from command line to 'False'
+[2.710s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_force_configure' from command line to 'False'
+[2.711s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'ament_cmake_args' from command line to 'None'
+[2.711s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'catkin_cmake_args' from command line to 'None'
+[2.711s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.711s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/endika/unitree_mujoco_ros/build/unitree_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/endika/unitree_mujoco_ros/install/unitree_api', 'merge_install': False, 'path': '/home/endika/unitree_mujoco_ros/src/unitree_api', 'symlink_install': False, 'test_result_base': None}
+[2.713s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_args' from command line to 'None'
+[2.713s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_target' from command line to 'None'
+[2.713s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.713s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_clean_cache' from command line to 'False'
+[2.713s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_clean_first' from command line to 'False'
+[2.713s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_force_configure' from command line to 'False'
+[2.713s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'ament_cmake_args' from command line to 'None'
+[2.714s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'catkin_cmake_args' from command line to 'None'
+[2.714s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.714s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_go' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/endika/unitree_mujoco_ros/build/unitree_go', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/endika/unitree_mujoco_ros/install/unitree_go', 'merge_install': False, 'path': '/home/endika/unitree_mujoco_ros/src/unitree_go', 'symlink_install': False, 'test_result_base': None}
+[2.716s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_args' from command line to 'None'
+[2.716s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_target' from command line to 'None'
+[2.716s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.717s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.717s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_clean_first' from command line to 'False'
+[2.717s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_force_configure' from command line to 'False'
+[2.717s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'ament_cmake_args' from command line to 'None'
+[2.717s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.717s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.717s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_hg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/endika/unitree_mujoco_ros/build/unitree_hg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/endika/unitree_mujoco_ros/install/unitree_hg', 'merge_install': False, 'path': '/home/endika/unitree_mujoco_ros/src/unitree_hg', 'symlink_install': False, 'test_result_base': None}
+[2.718s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'cmake_args' from command line to 'None'
+[2.718s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'cmake_target' from command line to 'None'
+[2.718s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'cmake_clean_first' from command line to 'False'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'cmake_force_configure' from command line to 'False'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'ament_cmake_args' from command line to 'None'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.719s] DEBUG:colcon.colcon_core.verb:Building package 'stand_go2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/endika/unitree_mujoco_ros/build/stand_go2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/endika/unitree_mujoco_ros/install/stand_go2', 'merge_install': False, 'path': '/home/endika/unitree_mujoco_ros/src/stand_go2', 'symlink_install': False, 'test_result_base': None}
+[2.720s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.723s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.724s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/endika/unitree_mujoco_ros/src/unitree_api' with build type 'ament_cmake'
+[2.725s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/endika/unitree_mujoco_ros/src/unitree_api'
+[2.736s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.737s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.737s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.753s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/endika/unitree_mujoco_ros/src/unitree_go' with build type 'ament_cmake'
+[2.754s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/endika/unitree_mujoco_ros/src/unitree_go'
+[2.755s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.768s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/endika/unitree_mujoco_ros/src/unitree_hg' with build type 'ament_cmake'
+[2.769s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/endika/unitree_mujoco_ros/src/unitree_hg'
+[2.771s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/endika/unitree_mujoco_ros/build/unitree_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/endika/unitree_mujoco_ros/src/unitree_api -DCMAKE_INSTALL_PREFIX=/home/endika/unitree_mujoco_ros/install/unitree_api
+[2.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/endika/unitree_mujoco_ros/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/endika/unitree_mujoco_ros/src/unitree_go -DCMAKE_INSTALL_PREFIX=/home/endika/unitree_mujoco_ros/install/unitree_go
+[2.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/endika/unitree_mujoco_ros/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/endika/unitree_mujoco_ros/src/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/endika/unitree_mujoco_ros/install/unitree_hg
+[24.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/endika/unitree_mujoco_ros/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/endika/unitree_mujoco_ros/src/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/endika/unitree_mujoco_ros/install/unitree_hg
+[24.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/endika/unitree_mujoco_ros/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/endika/unitree_mujoco_ros/build/unitree_hg -- -j4 -l4
+[26.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/endika/unitree_mujoco_ros/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/endika/unitree_mujoco_ros/src/unitree_go -DCMAKE_INSTALL_PREFIX=/home/endika/unitree_mujoco_ros/install/unitree_go
+[26.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/endika/unitree_mujoco_ros/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/endika/unitree_mujoco_ros/build/unitree_go -- -j4 -l4
+[31.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/endika/unitree_mujoco_ros/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/endika/unitree_mujoco_ros/src/unitree_api -DCMAKE_INSTALL_PREFIX=/home/endika/unitree_mujoco_ros/install/unitree_api
+[31.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/endika/unitree_mujoco_ros/build/unitree_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/endika/unitree_mujoco_ros/build/unitree_api -- -j4 -l4
+[251.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/endika/unitree_mujoco_ros/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/endika/unitree_mujoco_ros/build/unitree_api -- -j4 -l4
+[251.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/endika/unitree_mujoco_ros/build/unitree_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/endika/unitree_mujoco_ros/build/unitree_api
+[252.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_api)
+[252.321s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api' for CMake module files
+[252.332s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api' for CMake config files
+[252.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'cmake_prefix_path')
+[252.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.ps1'
+[252.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.dsv'
+[252.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.sh'
+[252.484s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api/lib'
+[252.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'ld_library_path_lib')
+[252.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.ps1'
+[252.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.dsv'
+[252.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.sh'
+[252.613s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api/bin'
+[252.614s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api/lib/pkgconfig/unitree_api.pc'
+[252.623s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api/lib/python3.10/site-packages'
+[252.638s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api/bin'
+[252.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/package.ps1'
+[252.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/package.dsv'
+[252.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/package.sh'
+[252.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/package.bash'
+[252.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/package.zsh'
+[252.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/endika/unitree_mujoco_ros/install/unitree_api/share/colcon-core/packages/unitree_api)
+[252.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/endika/unitree_mujoco_ros/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/endika/unitree_mujoco_ros/build/unitree_api
+[252.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_api)
+[252.941s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api' for CMake module files
+[252.970s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api' for CMake config files
+[252.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'cmake_prefix_path')
+[252.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.ps1'
+[253.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.dsv'
+[253.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.sh'
+[253.076s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api/lib'
+[253.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'ld_library_path_lib')
+[253.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.ps1'
+[253.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.dsv'
+[253.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.sh'
+[253.136s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api/bin'
+[253.137s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api/lib/pkgconfig/unitree_api.pc'
+[253.143s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api/lib/python3.10/site-packages'
+[253.145s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_api/bin'
+[253.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/package.ps1'
+[253.187s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/package.dsv'
+[253.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/package.sh'
+[253.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/package.bash'
+[253.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_api/share/unitree_api/package.zsh'
+[253.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/endika/unitree_mujoco_ros/install/unitree_api/share/colcon-core/packages/unitree_api)
+[351.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/endika/unitree_mujoco_ros/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/endika/unitree_mujoco_ros/build/unitree_hg -- -j4 -l4
+[351.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/endika/unitree_mujoco_ros/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/endika/unitree_mujoco_ros/build/unitree_hg
+[353.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_hg)
+[353.110s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg' for CMake module files
+[353.158s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg' for CMake config files
+[353.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'cmake_prefix_path')
+[353.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.ps1'
+[353.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.dsv'
+[353.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.sh'
+[353.318s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg/lib'
+[353.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'ld_library_path_lib')
+[353.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.ps1'
+[353.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.dsv'
+[353.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.sh'
+[353.370s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg/bin'
+[353.376s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg/lib/pkgconfig/unitree_hg.pc'
+[353.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/endika/unitree_mujoco_ros/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/endika/unitree_mujoco_ros/build/unitree_hg
+[353.387s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg/lib/python3.10/site-packages'
+[353.395s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg/bin'
+[353.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/package.ps1'
+[353.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/package.dsv'
+[353.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/package.sh'
+[353.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/package.bash'
+[353.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/package.zsh'
+[353.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/endika/unitree_mujoco_ros/install/unitree_hg/share/colcon-core/packages/unitree_hg)
+[353.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_hg)
+[353.559s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg' for CMake module files
+[353.587s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg' for CMake config files
+[353.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'cmake_prefix_path')
+[353.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.ps1'
+[353.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.dsv'
+[353.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.sh'
+[353.674s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg/lib'
+[353.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'ld_library_path_lib')
+[353.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.ps1'
+[353.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.dsv'
+[353.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.sh'
+[353.739s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg/bin'
+[353.739s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg/lib/pkgconfig/unitree_hg.pc'
+[353.748s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg/lib/python3.10/site-packages'
+[353.751s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_hg/bin'
+[353.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/package.ps1'
+[353.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/package.dsv'
+[353.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/package.sh'
+[353.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/package.bash'
+[353.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/package.zsh'
+[353.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/endika/unitree_mujoco_ros/install/unitree_hg/share/colcon-core/packages/unitree_hg)
+[568.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/endika/unitree_mujoco_ros/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/endika/unitree_mujoco_ros/build/unitree_go -- -j4 -l4
+[568.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/endika/unitree_mujoco_ros/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/endika/unitree_mujoco_ros/build/unitree_go
+[570.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_go)
+[570.125s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go' for CMake module files
+[570.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/endika/unitree_mujoco_ros/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/endika/unitree_mujoco_ros/build/unitree_go
+[570.145s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go' for CMake config files
+[570.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'cmake_prefix_path')
+[570.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.ps1'
+[570.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.dsv'
+[570.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.sh'
+[570.165s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go/lib'
+[570.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'ld_library_path_lib')
+[570.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.ps1'
+[570.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.dsv'
+[570.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.sh'
+[570.183s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go/bin'
+[570.184s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go/lib/pkgconfig/unitree_go.pc'
+[570.186s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go/lib/python3.10/site-packages'
+[570.192s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go/bin'
+[570.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/package.ps1'
+[570.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/package.dsv'
+[570.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/package.sh'
+[570.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/package.bash'
+[570.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/package.zsh'
+[570.213s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/endika/unitree_mujoco_ros/install/unitree_go/share/colcon-core/packages/unitree_go)
+[570.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_go)
+[570.220s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go' for CMake module files
+[570.223s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go' for CMake config files
+[570.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'cmake_prefix_path')
+[570.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.ps1'
+[570.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.dsv'
+[570.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.sh'
+[570.241s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go/lib'
+[570.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'ld_library_path_lib')
+[570.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.ps1'
+[570.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.dsv'
+[570.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.sh'
+[570.259s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go/bin'
+[570.259s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go/lib/pkgconfig/unitree_go.pc'
+[570.261s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go/lib/python3.10/site-packages'
+[570.262s] Level 1:colcon.colcon_core.environment:checking '/home/endika/unitree_mujoco_ros/install/unitree_go/bin'
+[570.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/package.ps1'
+[570.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/package.dsv'
+[570.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/package.sh'
+[570.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/package.bash'
+[570.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/endika/unitree_mujoco_ros/install/unitree_go/share/unitree_go/package.zsh'
+[570.286s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/endika/unitree_mujoco_ros/install/unitree_go/share/colcon-core/packages/unitree_go)
+[570.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/endika/unitree_mujoco_ros/src/stand_go2'
+[570.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[570.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[570.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/endika/unitree_mujoco_ros/build/stand_go2': CMAKE_PREFIX_PATH=/home/endika/unitree_mujoco_ros/install/unitree_go:/home/endika/unitree_mujoco_ros/install/unitree_api:/home/endika/unitree_mujoco_ros/install/unitree_hg:/home/endika/unitree_mujoco_ros/install/stand_go2 LD_LIBRARY_PATH=/home/endika/unitree_mujoco_ros/install/unitree_go/lib:/home/endika/unitree_mujoco_ros/install/unitree_api/lib:/home/endika/unitree_mujoco_ros/install/unitree_hg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/unitree_robotics/lib:/home/endika//mujoco-3.2.7/build/bin:/usr/lib/nvidia /usr/bin/cmake /home/endika/unitree_mujoco_ros/src/stand_go2 -DCMAKE_INSTALL_PREFIX=/home/endika/unitree_mujoco_ros/install/stand_go2
+[580.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/endika/unitree_mujoco_ros/build/stand_go2' returned '1': CMAKE_PREFIX_PATH=/home/endika/unitree_mujoco_ros/install/unitree_go:/home/endika/unitree_mujoco_ros/install/unitree_api:/home/endika/unitree_mujoco_ros/install/unitree_hg:/home/endika/unitree_mujoco_ros/install/stand_go2 LD_LIBRARY_PATH=/home/endika/unitree_mujoco_ros/install/unitree_go/lib:/home/endika/unitree_mujoco_ros/install/unitree_api/lib:/home/endika/unitree_mujoco_ros/install/unitree_hg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/unitree_robotics/lib:/home/endika//mujoco-3.2.7/build/bin:/usr/lib/nvidia /usr/bin/cmake /home/endika/unitree_mujoco_ros/src/stand_go2 -DCMAKE_INSTALL_PREFIX=/home/endika/unitree_mujoco_ros/install/stand_go2
+[580.703s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[580.716s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[580.717s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[580.736s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[580.884s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[580.885s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[580.886s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[581.039s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[581.047s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/endika/unitree_mujoco_ros/install/local_setup.ps1'
+[581.073s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/endika/unitree_mujoco_ros/install/_local_setup_util_ps1.py'
+[581.095s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/endika/unitree_mujoco_ros/install/setup.ps1'
+[581.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/endika/unitree_mujoco_ros/install/local_setup.sh'
+[581.138s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/endika/unitree_mujoco_ros/install/_local_setup_util_sh.py'
+[581.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/endika/unitree_mujoco_ros/install/setup.sh'
+[581.191s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/endika/unitree_mujoco_ros/install/local_setup.bash'
+[581.201s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/endika/unitree_mujoco_ros/install/setup.bash'
+[581.207s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/endika/unitree_mujoco_ros/install/local_setup.zsh'
+[581.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/endika/unitree_mujoco_ros/install/setup.zsh'

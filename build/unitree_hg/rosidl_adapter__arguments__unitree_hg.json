@@ -1,0 +1,16 @@
+{
+  "package_name": "unitree_hg",
+  "non_idl_tuples": [
+    "/home/endika/unitree_mujoco_ros/src/unitree_hg:msg/BmsCmd.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_hg:msg/BmsState.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_hg:msg/HandCmd.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_hg:msg/HandState.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_hg:msg/IMUState.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_hg:msg/LowCmd.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_hg:msg/LowState.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_hg:msg/MainBoardState.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_hg:msg/MotorCmd.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_hg:msg/MotorState.msg",
+    "/home/endika/unitree_mujoco_ros/src/unitree_hg:msg/PressSensorState.msg"
+  ]
+}

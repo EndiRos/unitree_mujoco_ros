@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test.dir/test/test_unitree_sdk2.cpp.o -o test   -L/opt/unitree_robotics/lib  -Wl,-rpath,/opt/unitree_robotics/lib /opt/unitree_robotics/lib/libunitree_sdk2.a -lddsc -lddscxx 

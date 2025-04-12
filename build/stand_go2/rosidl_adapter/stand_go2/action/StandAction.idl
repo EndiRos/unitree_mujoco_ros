@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from stand_go2/action/StandAction.action
+// generated code does not contain a copyright notice
+
+
+module stand_go2 {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct StandAction_Goal {
+      @verbatim (language="comment", text=
+        "Si es \"true\", hacer stand up; si es \"false\", hacer stand down")
+      boolean stand_up;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct StandAction_Result {
+      @verbatim (language="comment", text=
+        "Progreso del movimiento, de 0.0 a 1.0")
+      float progress;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct StandAction_Feedback {
+      @verbatim (language="comment", text=
+        "Indica si la acción se completó con éxito")
+      boolean success;
+    };
+  };
+};

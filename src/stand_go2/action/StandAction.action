@@ -1,0 +1,8 @@
+# Goal
+bool stand_up  # Si es "true", hacer stand up; si es "false", hacer stand down
+---
+# Feedback
+float32 progress  # Progreso del movimiento, de 0.0 a 1.0
+---
+# Result
+bool success  # Indica si la acción se completó con éxito

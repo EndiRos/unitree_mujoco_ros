@@ -1,0 +1,536 @@
+[0.124s] Invoking command in '/home/endika/unitree_mujoco_ros/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/endika/unitree_mujoco_ros/src/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/endika/unitree_mujoco_ros/install/unitree_hg
+[0.825s] -- The C compiler identification is GNU 11.4.0
+[1.492s] -- The CXX compiler identification is GNU 11.4.0
+[1.566s] -- Detecting C compiler ABI info
+[2.632s] -- Detecting C compiler ABI info - done
+[2.680s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.681s] -- Detecting C compile features
+[2.688s] -- Detecting C compile features - done
+[2.715s] -- Detecting CXX compiler ABI info
+[3.608s] -- Detecting CXX compiler ABI info - done
+[3.683s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.688s] -- Detecting CXX compile features
+[3.713s] -- Detecting CXX compile features - done
+[3.713s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.059s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.204s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.776s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.865s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.929s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.022s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.461s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.531s] -- Found rosidl_generator_dds_idl: 0.8.1 (/opt/ros/humble/share/rosidl_generator_dds_idl/cmake)
+[11.414s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[17.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.034s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.230s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[19.239s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[19.407s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[19.409s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[19.409s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[19.415s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[19.632s] -- Found PythonExtra: .so  
+[21.101s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[21.221s] -- Added test 'copyright' to check source files copyright and LICENSE
+[21.227s] -- Added test 'lint_cmake' to check CMake code style
+[21.229s] -- Added test 'xmllint' to check XML markup files
+[21.248s] -- Configuring done
+[21.559s] -- Generating done
+[21.668s] -- Build files have been written to: /home/endika/unitree_mujoco_ros/build/unitree_hg
+[21.736s] Invoked command in '/home/endika/unitree_mujoco_ros/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/endika/unitree_mujoco_ros/src/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/endika/unitree_mujoco_ros/install/unitree_hg
+[21.786s] Invoking command in '/home/endika/unitree_mujoco_ros/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/endika/unitree_mujoco_ros/build/unitree_hg -- -j4 -l4
+[22.359s] [  1%] [34m[1mGenerating DDS interfaces[0m
+[28.891s] [  1%] Built target unitree_hg__dds_connext_idl
+[29.455s] [  1%] Built target ament_cmake_python_copy_unitree_hg
+[29.760s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[41.227s] [  1%] Built target unitree_hg__cpp
+[44.038s] running egg_info
+[44.042s] creating unitree_hg.egg-info
+[44.046s] writing unitree_hg.egg-info/PKG-INFO
+[44.047s] writing dependency_links to unitree_hg.egg-info/dependency_links.txt
+[44.048s] writing top-level names to unitree_hg.egg-info/top_level.txt
+[44.052s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[44.067s] reading manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[44.070s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[44.382s] [  1%] Built target ament_cmake_python_build_unitree_hg_egg
+[44.552s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[51.442s] [  3%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_cmd__type_support.cpp.o[0m
+[54.651s] [  4%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_state__type_support.cpp.o[0m
+[58.395s] [  4%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_cmd__type_support.cpp.o[0m
+[61.706s] [  5%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_state__type_support.cpp.o[0m
+[66.108s] [  6%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/imu_state__type_support.cpp.o[0m
+[70.635s] [  7%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_cmd__type_support.cpp.o[0m
+[75.379s] [  8%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_state__type_support.cpp.o[0m
+[79.786s] [  9%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/main_board_state__type_support.cpp.o[0m
+[84.045s] [ 10%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_cmd__type_support.cpp.o[0m
+[87.626s] [ 11%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_state__type_support.cpp.o[0m
+[91.540s] [ 12%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/press_sensor_state__type_support.cpp.o[0m
+[96.209s] [ 13%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_introspection_cpp.so[0m
+[97.371s] [ 13%] Built target unitree_hg__rosidl_typesupport_introspection_cpp
+[97.621s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[107.456s] [ 15%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/bms_cmd__type_support.cpp.o[0m
+[110.257s] [ 16%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/bms_state__type_support.cpp.o[0m
+[112.672s] [ 16%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/hand_cmd__type_support.cpp.o[0m
+[115.683s] [ 17%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/hand_state__type_support.cpp.o[0m
+[118.824s] [ 18%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/imu_state__type_support.cpp.o[0m
+[121.599s] [ 19%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/low_cmd__type_support.cpp.o[0m
+[125.634s] [ 20%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/low_state__type_support.cpp.o[0m
+[128.578s] [ 21%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/main_board_state__type_support.cpp.o[0m
+[132.884s] [ 22%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/motor_cmd__type_support.cpp.o[0m
+[135.074s] [ 23%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/motor_state__type_support.cpp.o[0m
+[137.116s] [ 24%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/press_sensor_state__type_support.cpp.o[0m
+[140.317s] [ 25%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_cpp.so[0m
+[141.171s] [ 25%] Built target unitree_hg__rosidl_typesupport_cpp
+[141.276s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[150.758s] [ 27%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/bms_cmd__type_support.cpp.o[0m
+[154.098s] [ 27%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/hand_cmd__type_support.cpp.o[0m
+[158.442s] [ 28%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/hand_state__type_support.cpp.o[0m
+[164.206s] [ 29%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/imu_state__type_support.cpp.o[0m
+[174.300s] [ 30%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/low_cmd__type_support.cpp.o[0m
+[178.075s] [ 31%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/low_state__type_support.cpp.o[0m
+[185.928s] [ 32%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/main_board_state__type_support.cpp.o[0m
+[192.697s] [ 33%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/motor_cmd__type_support.cpp.o[0m
+[196.199s] [ 34%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o[0m
+[200.963s] [ 35%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/press_sensor_state__type_support.cpp.o[0m
+[205.444s] [ 36%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/bms_state__type_support.cpp.o[0m
+[212.969s] [ 37%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_fastrtps_cpp.so[0m
+[214.316s] [ 37%] Built target unitree_hg__rosidl_typesupport_fastrtps_cpp
+[214.562s] [ 38%] [34m[1mGenerating C code for ROS interfaces[0m
+[231.555s] [ 39%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_cmd__functions.c.o[0m
+[232.251s] [ 40%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_state__functions.c.o[0m
+[233.280s] [ 41%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/imu_state__functions.c.o[0m
+[234.019s] [ 41%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_cmd__functions.c.o[0m
+[234.785s] [ 42%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_state__functions.c.o[0m
+[235.408s] [ 43%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/main_board_state__functions.c.o[0m
+[236.712s] [ 44%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_cmd__functions.c.o[0m
+[237.390s] [ 45%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_state__functions.c.o[0m
+[237.814s] [ 46%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/press_sensor_state__functions.c.o[0m
+[238.158s] [ 47%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_cmd__functions.c.o[0m
+[238.834s] [ 48%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_state__functions.c.o[0m
+[239.772s] [ 49%] [32m[1mLinking C shared library libunitree_hg__rosidl_generator_c.so[0m
+[241.103s] [ 49%] Built target unitree_hg__rosidl_generator_c
+[241.297s] [ 49%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[251.093s] [ 50%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/bms_cmd__type_support_c.cpp.o[0m
+[253.713s] [ 51%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/bms_state__type_support_c.cpp.o[0m
+[256.639s] [ 52%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/hand_cmd__type_support_c.cpp.o[0m
+[260.266s] [ 53%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/hand_state__type_support_c.cpp.o[0m
+[263.184s] [ 54%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/imu_state__type_support_c.cpp.o[0m
+[266.723s] [ 55%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/low_cmd__type_support_c.cpp.o[0m
+[269.710s] [ 56%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/low_state__type_support_c.cpp.o[0m
+[272.806s] [ 57%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/main_board_state__type_support_c.cpp.o[0m
+[276.487s] [ 57%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_cmd__type_support_c.cpp.o[0m
+[279.511s] [ 58%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_state__type_support_c.cpp.o[0m
+[282.777s] [ 59%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/press_sensor_state__type_support_c.cpp.o[0m
+[286.561s] [ 60%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_fastrtps_c.so[0m
+[287.534s] [ 60%] Built target unitree_hg__rosidl_typesupport_fastrtps_c
+[287.681s] [ 60%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[293.930s] [ 61%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/bms_cmd__type_support.cpp.o[0m
+[294.252s] [ 62%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/hand_cmd__type_support.cpp.o[0m
+[294.721s] [ 63%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/hand_state__type_support.cpp.o[0m
+[295.002s] [ 64%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/imu_state__type_support.cpp.o[0m
+[295.323s] [ 65%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/low_cmd__type_support.cpp.o[0m
+[295.577s] [ 66%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/low_state__type_support.cpp.o[0m
+[295.920s] [ 67%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/main_board_state__type_support.cpp.o[0m
+[296.625s] [ 67%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/motor_cmd__type_support.cpp.o[0m
+[296.921s] [ 68%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/motor_state__type_support.cpp.o[0m
+[297.187s] [ 69%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/press_sensor_state__type_support.cpp.o[0m
+[297.428s] [ 70%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/bms_state__type_support.cpp.o[0m
+[297.652s] [ 71%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_c.so[0m
+[297.986s] [ 71%] Built target unitree_hg__rosidl_typesupport_c
+[298.090s] [ 71%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[306.434s] [ 72%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/bms_cmd__type_support.c.o[0m
+[307.020s] [ 73%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/hand_state__type_support.c.o[0m
+[307.615s] [ 74%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/imu_state__type_support.c.o[0m
+[308.137s] [ 75%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/low_cmd__type_support.c.o[0m
+[308.439s] [ 76%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/low_state__type_support.c.o[0m
+[308.781s] [ 77%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/main_board_state__type_support.c.o[0m
+[309.139s] [ 77%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/motor_cmd__type_support.c.o[0m
+[309.425s] [ 78%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/motor_state__type_support.c.o[0m
+[309.761s] [ 79%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/press_sensor_state__type_support.c.o[0m
+[310.075s] [ 80%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/hand_cmd__type_support.c.o[0m
+[310.365s] [ 81%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/bms_state__type_support.c.o[0m
+[310.761s] [ 82%] [32m[1mLinking C shared library libunitree_hg__rosidl_typesupport_introspection_c.so[0m
+[311.202s] [ 82%] Built target unitree_hg__rosidl_typesupport_introspection_c
+[311.477s] [ 82%] Built target unitree_hg
+[311.715s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[328.558s] [ 83%] Built target unitree_hg__py
+[328.805s] [ 84%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_bms_cmd_s.c.o[0m
+[329.929s] [ 85%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_hand_state_s.c.o[0m
+[331.020s] [ 86%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_imu_state_s.c.o[0m
+[332.568s] [ 87%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_low_cmd_s.c.o[0m
+[333.831s] [ 88%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_low_state_s.c.o[0m
+[335.443s] [ 89%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_main_board_state_s.c.o[0m
+[336.634s] [ 90%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_motor_cmd_s.c.o[0m
+[337.984s] [ 91%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_motor_state_s.c.o[0m
+[339.010s] [ 92%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_press_sensor_state_s.c.o[0m
+[339.941s] [ 92%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_hand_cmd_s.c.o[0m
+[340.954s] [ 93%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_bms_state_s.c.o[0m
+[341.984s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/libunitree_hg__rosidl_generator_py.so[0m
+[342.660s] [ 94%] Built target unitree_hg__rosidl_generator_py
+[342.958s] [ 95%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[344.026s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[344.726s] [ 96%] Built target unitree_hg__rosidl_typesupport_fastrtps_c__pyext
+[345.079s] [ 97%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c.o[0m
+[346.837s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[347.233s] [ 98%] Built target unitree_hg__rosidl_typesupport_c__pyext
+[347.404s] [ 99%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[348.398s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[348.792s] [100%] Built target unitree_hg__rosidl_typesupport_introspection_c__pyext
+[348.996s] Invoked command in '/home/endika/unitree_mujoco_ros/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/endika/unitree_mujoco_ros/build/unitree_hg -- -j4 -l4
+[349.040s] Invoking command in '/home/endika/unitree_mujoco_ros/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/endika/unitree_mujoco_ros/build/unitree_hg
+[349.189s] -- Install configuration: ""
+[349.190s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/ament_index/resource_index/rosidl_interfaces/unitree_hg
+[349.194s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg
+[349.202s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[349.211s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.h
+[349.224s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.h
+[349.233s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.h
+[349.234s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.h
+[349.238s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.h
+[349.242s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.h
+[349.243s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[349.243s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.c
+[349.244s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.h
+[349.248s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.h
+[349.252s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.h
+[349.256s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.h
+[349.270s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.h
+[349.271s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.h
+[349.272s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.c
+[349.274s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.h
+[349.275s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.h
+[349.276s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.c
+[349.285s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.c
+[349.286s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.h
+[349.286s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.h
+[349.286s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.h
+[349.287s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.h
+[349.287s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.h
+[349.288s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.h
+[349.292s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.c
+[349.295s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.h
+[349.298s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.h
+[349.302s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.h
+[349.303s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.h
+[349.303s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.h
+[349.308s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.h
+[349.308s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.c
+[349.316s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.h
+[349.317s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.h
+[349.317s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.h
+[349.318s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.h
+[349.318s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.h
+[349.323s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.c
+[349.324s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.c
+[349.325s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.h
+[349.330s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.h
+[349.333s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.h
+[349.335s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.h
+[349.337s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.h
+[349.338s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.c
+[349.339s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.c
+[349.341s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.h
+[349.341s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.h
+[349.344s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.h
+[349.346s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.c
+[349.347s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.h
+[349.348s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_c__visibility_control.h
+[349.350s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.h
+[349.353s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.h
+[349.355s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.h
+[349.356s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.h
+[349.362s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/environment/library_path.sh
+[349.363s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/environment/library_path.dsv
+[349.364s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so
+[349.365s] -- Set runtime path of "/home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so" to ""
+[349.365s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg
+[349.366s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[349.366s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[349.367s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[349.368s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h
+[349.369s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_c.h
+[349.370s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_c.h
+[349.370s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_c.h
+[349.371s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h
+[349.374s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[349.377s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[349.381s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[349.382s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_c.h
+[349.385s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_c.h
+[349.391s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h
+[349.404s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so
+[349.406s] -- Set runtime path of "/home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so" to ""
+[349.410s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg
+[349.414s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[349.419s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.hpp
+[349.424s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.hpp
+[349.428s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.hpp
+[349.434s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.hpp
+[349.443s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_cpp__visibility_control.hpp
+[349.446s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.hpp
+[349.446s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.hpp
+[349.448s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[349.449s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__traits.hpp
+[349.451s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__traits.hpp
+[349.452s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.hpp
+[349.461s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__traits.hpp
+[349.465s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.hpp
+[349.467s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.hpp
+[349.470s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.hpp
+[349.471s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__builder.hpp
+[349.473s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.hpp
+[349.474s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__builder.hpp
+[349.476s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__traits.hpp
+[349.477s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__traits.hpp
+[349.478s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.hpp
+[349.481s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.hpp
+[349.483s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.hpp
+[349.486s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.hpp
+[349.487s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__builder.hpp
+[349.487s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.hpp
+[349.488s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.hpp
+[349.488s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.hpp
+[349.489s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__builder.hpp
+[349.489s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__builder.hpp
+[349.489s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__builder.hpp
+[349.489s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.hpp
+[349.490s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__traits.hpp
+[349.490s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.hpp
+[349.490s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__builder.hpp
+[349.491s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.hpp
+[349.494s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__traits.hpp
+[349.494s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.hpp
+[349.495s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.hpp
+[349.495s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__traits.hpp
+[349.495s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__traits.hpp
+[349.496s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.hpp
+[349.496s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.hpp
+[349.496s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.hpp
+[349.498s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__traits.hpp
+[349.498s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__builder.hpp
+[349.499s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__builder.hpp
+[349.500s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__builder.hpp
+[349.501s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.hpp
+[349.501s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__traits.hpp
+[349.502s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.hpp
+[349.502s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__builder.hpp
+[349.502s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.hpp
+[349.503s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.hpp
+[349.503s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.hpp
+[349.503s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.hpp
+[349.503s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.hpp
+[349.504s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg
+[349.504s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[349.504s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[349.504s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/dds_fastrtps
+[349.505s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[349.505s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[349.505s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_cpp.hpp
+[349.505s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[349.505s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[349.506s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[349.506s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_cpp.hpp
+[349.507s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[349.507s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_cpp.hpp
+[349.507s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[349.508s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp
+[349.508s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[349.508s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
+[349.509s] -- Set runtime path of "/home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[349.509s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg
+[349.509s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[349.510s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[349.510s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.c
+[349.510s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.c
+[349.511s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.c
+[349.511s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.c
+[349.511s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[349.511s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_c.h
+[349.512s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_c.h
+[349.512s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[349.512s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.c
+[349.513s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_c.h
+[349.515s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.c
+[349.515s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_c.h
+[349.515s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_c.h
+[349.516s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.c
+[349.516s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.c
+[349.517s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_c.h
+[349.517s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.c
+[349.517s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[349.518s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.c
+[349.518s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h
+[349.518s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h
+[349.519s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.c
+[349.519s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[349.519s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so
+[349.520s] -- Set runtime path of "/home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so" to ""
+[349.520s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so
+[349.520s] -- Set runtime path of "/home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so" to ""
+[349.521s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg
+[349.521s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[349.521s] -- Up-to-date: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[349.522s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.cpp
+[349.522s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp
+[349.522s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.cpp
+[349.523s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[349.523s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[349.523s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.cpp
+[349.523s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp
+[349.524s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_cpp.hpp
+[349.524s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.cpp
+[349.524s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.cpp
+[349.525s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.cpp
+[349.525s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.cpp
+[349.527s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.cpp
+[349.527s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.cpp
+[349.528s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.cpp
+[349.528s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[349.529s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp
+[349.529s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[349.529s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_cpp.hpp
+[349.530s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.cpp
+[349.530s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_cpp.hpp
+[349.531s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_cpp.hpp
+[349.532s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so
+[349.532s] -- Set runtime path of "/home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so" to ""
+[349.532s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so
+[349.533s] -- Set runtime path of "/home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so" to ""
+[349.533s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/environment/pythonpath.sh
+[349.534s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/environment/pythonpath.dsv
+[349.534s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info
+[349.535s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/PKG-INFO
+[349.535s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/top_level.txt
+[349.536s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/dependency_links.txt
+[349.536s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/SOURCES.txt
+[349.536s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg
+[349.537s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg
+[349.537s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd_s.c
+[349.537s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd.py
+[349.538s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd_s.c
+[349.539s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd.py
+[349.539s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state_s.c
+[349.539s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state_s.c
+[349.540s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state.py
+[349.540s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state_s.c
+[349.540s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd_s.c
+[349.541s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state.py
+[349.541s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state_s.c
+[349.542s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state.py
+[349.542s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state.py
+[349.542s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd.py
+[349.543s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state.py
+[349.543s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state_s.c
+[349.544s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state.py
+[349.544s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state_s.c
+[349.544s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd.py
+[349.545s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state.py
+[349.545s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/__init__.py
+[349.545s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state_s.c
+[349.546s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd_s.c
+[349.547s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[349.548s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c
+[349.548s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/libunitree_hg__rosidl_generator_py.so
+[349.549s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c
+[349.549s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[349.550s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c
+[349.551s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[349.552s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/__init__.py
+[350.095s] Listing '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg'...
+[350.095s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/__init__.py'...
+[350.096s] Listing '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg'...
+[350.100s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/__init__.py'...
+[350.103s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd.py'...
+[350.104s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state.py'...
+[350.106s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd.py'...
+[350.109s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state.py'...
+[350.110s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state.py'...
+[350.111s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd.py'...
+[350.112s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state.py'...
+[350.112s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state.py'...
+[350.113s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd.py'...
+[350.114s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state.py'...
+[350.118s] Compiling '/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state.py'...
+[350.178s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[350.180s] -- Set runtime path of "/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[350.181s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[350.185s] -- Set runtime path of "/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[350.190s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[350.203s] -- Set runtime path of "/home/endika/unitree_mujoco_ros/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[350.203s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so
+[350.209s] -- Set runtime path of "/home/endika/unitree_mujoco_ros/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so" to ""
+[350.210s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/BmsCmd.idl
+[350.213s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/BmsState.idl
+[350.214s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/HandCmd.idl
+[350.214s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/HandState.idl
+[350.221s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/IMUState.idl
+[350.238s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/LowCmd.idl
+[350.239s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/LowState.idl
+[350.260s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/MainBoardState.idl
+[350.276s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/MotorCmd.idl
+[350.277s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/MotorState.idl
+[350.289s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/PressSensorState.idl
+[350.290s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/BmsCmd.msg
+[350.290s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/BmsState.msg
+[350.291s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/HandCmd.msg
+[350.291s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/HandState.msg
+[350.291s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/IMUState.msg
+[350.291s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/LowCmd.msg
+[350.292s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/LowState.msg
+[350.309s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/MainBoardState.msg
+[350.319s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/MotorCmd.msg
+[350.339s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/MotorState.msg
+[350.340s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/PressSensorState.msg
+[350.341s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/dds_connext
+[350.345s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowState_.idl
+[350.369s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowCmd_.idl
+[350.370s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandCmd_.idl
+[350.371s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorCmd_.idl
+[350.375s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorState_.idl
+[350.376s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsCmd_.idl
+[350.377s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/dds_connext/MainBoardState_.idl
+[350.377s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsState_.idl
+[350.384s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/dds_connext/IMUState_.idl
+[350.384s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandState_.idl
+[350.385s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/msg/dds_connext/PressSensorState_.idl
+[350.389s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/ament_index/resource_index/package_run_dependencies/unitree_hg
+[350.390s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/ament_index/resource_index/parent_prefix_path/unitree_hg
+[350.391s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.sh
+[350.391s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.dsv
+[350.404s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/environment/path.sh
+[350.406s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/environment/path.dsv
+[350.414s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/local_setup.bash
+[350.437s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/local_setup.sh
+[350.439s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/local_setup.zsh
+[350.448s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/local_setup.dsv
+[350.459s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/package.dsv
+[350.459s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/ament_index/resource_index/packages/unitree_hg
+[350.460s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport.cmake
+[350.460s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport-noconfig.cmake
+[350.468s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport.cmake
+[350.469s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[350.470s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cppExport.cmake
+[350.476s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport.cmake
+[350.477s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[350.496s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport.cmake
+[350.497s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[350.498s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport.cmake
+[350.498s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport-noconfig.cmake
+[350.521s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport.cmake
+[350.527s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[350.529s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport.cmake
+[350.549s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport-noconfig.cmake
+[350.550s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport.cmake
+[350.575s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport-noconfig.cmake
+[350.584s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake-extras.cmake
+[350.585s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_dependencies-extras.cmake
+[350.587s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_include_directories-extras.cmake
+[350.587s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_libraries-extras.cmake
+[350.588s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_targets-extras.cmake
+[350.591s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[350.592s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[350.592s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig.cmake
+[350.593s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig-version.cmake
+[350.593s] -- Installing: /home/endika/unitree_mujoco_ros/install/unitree_hg/share/unitree_hg/package.xml
+[350.599s] Invoked command in '/home/endika/unitree_mujoco_ros/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/endika/unitree_mujoco_ros/build/unitree_hg

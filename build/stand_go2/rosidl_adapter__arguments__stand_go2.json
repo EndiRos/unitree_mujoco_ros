@@ -1,0 +1,6 @@
+{
+  "package_name": "stand_go2",
+  "non_idl_tuples": [
+    "/home/endika/unitree_mujoco_ros/src/stand_go2:action/StandAction.action"
+  ]
+}
